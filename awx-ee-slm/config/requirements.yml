@@ -34,6 +34,10 @@ roles:
     scm: git
     version: main
     name: node_exporter
+  - src: "git+https://github.com/SF2311/slm-cc-base"
+    scm: git
+    version: main
+    name: slm_monitoring
   - src: "git+https://github.com/eclipse-slm/slm-ansible-role-basyx-server"
     scm: git
     version: main
